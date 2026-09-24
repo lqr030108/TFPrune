@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tfprune"
+version = "0.1.0"
+description = "Future-functional visual-token compression for LLaVA and Qwen2.5-VL"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.1", "loguru>=0.7"]
+
+[tool.setuptools.packages.find]
+include = ["tfprune*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

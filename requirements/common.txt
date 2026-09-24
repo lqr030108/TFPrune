@@ -1,0 +1,13 @@
+# Install in a fresh environment; use one model-specific requirements file.
+torch==2.6.0
+torchvision==0.21.0
+numpy==1.26.4
+accelerate==0.34.2
+peft==0.10.0
+sentence-transformers==2.7.0
+datasets==2.16.1
+pyarrow==16.1.0
+timm==0.9.16
+opencv-python-headless==4.10.0.84
+loguru==0.7.3
+
